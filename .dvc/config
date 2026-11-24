@@ -1,0 +1,6 @@
+[core]
+    remote = aws-lab
+['remote "aws-lab"']
+    url = s3://dvc-store/scoring
+    endpointurl = http://localhost:8333
+    region = us-east-1
